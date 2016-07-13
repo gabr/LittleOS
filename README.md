@@ -31,7 +31,7 @@ Installation:
 
 #### dwm tutorial
 
-Source: [dwm tutorial](source: http://dwm.suckless.org/tutorial)
+Source: [dwm tutorial](http://dwm.suckless.org/tutorial)
 
 Shortcuts:
 
