@@ -21,13 +21,13 @@ Packages:
 
 Installation:
 
-   cd /usr/local/src
-   sudo wget http://dl.suckless.org/dwm/dwm-6.0.tar.gz
-   sudo tar xvzf dwm-6.0.tar.gz
-   chown -R `id -u`:`id -g` dwm-6.0
-   cd dwm-6.0
-   sudo make clean install
-   echo exec dwm >> ~/.xinitrc
+    cd /usr/local/src
+    sudo wget http://dl.suckless.org/dwm/dwm-6.0.tar.gz
+    sudo tar xvzf dwm-6.0.tar.gz
+    chown -R `id -u`:`id -g` dwm-6.0
+    cd dwm-6.0
+    sudo make clean install
+    echo exec dwm >> ~/.xinitrc
 
 #### dwm tutorial
 
