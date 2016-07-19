@@ -8,26 +8,9 @@ Source: [minit.iso](http://archive.ubuntu.com/ubuntu/dists/xenial/main/installer
 ### dwm
 #### dwm installation
 
-Source: [dwm ubuntu installation guide](https://cannibalcandy.wordpress.com/2012/04/26/installing-and-configuring-dwm-under-ubuntu/)
-
-Packages:
-
-  + build-essential
-  + libx11-dev
-  + libxinerama-dev
-  + sharutils
-  + suckless-tools
-
-
-Installation:
-
-    cd /usr/local/src
-    sudo wget http://dl.suckless.org/dwm/dwm-6.0.tar.gz
-    sudo tar xvzf dwm-6.0.tar.gz
-    chown -R `id -u`:`id -g` dwm-6.0
-    cd dwm-6.0
-    sudo make clean install
+    sudo apt-get install dwm xinit -y
     echo exec dwm >> ~/.xinitrc
+    startx
 
 #### dwm tutorial
 
